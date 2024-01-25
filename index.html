@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+
+    <title>Noma's CV </title>
+
+    <!--Link to external CSS file-->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+    <body>
+        <!--Personal Profile-->  
+        <section id="personal-profile"> 
+        <h1>Personal Profile</h1>
+        <p1>
+            Highly skilled and dedicated Commerce Honours graduate with expertise in Human Resources and data analysis. Seeking a challenging position in a dynamic organization. Currently enrolled in a software engineering bootcamp with the aim of becoming a software engineer. Strong collaborator with excellent communication and analytical skills, a valuable asset to any team.  
+        </p1>
+    </section>
+
+    <!--Contact Information-->
+    <section id="contact-information">
+        <h1> Contact Information</h1> 
+        <p> Durban, Kwa Zulu Natal</p>
+        <p> 079 019 1420</p>
+        <p> ngwanenwj@gmail.com</p>
+        <ul>
+            
+            <li> <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"> LinkedIn</a> </li>
+            <li> <a href="https://github.com/NomaIV"> GitHub</a> </li>
+        </ul>
+
+        <img src="Noma.jpeg" alt="Noma's Linkedin profile picture">
+    </section>
+
+    <!--Education-->
+    <section id="education">
+        <h1> Education </h1>
+        <p> 
+            Institution: The Business School <br>
+            Campus: Varsity College Durban North<br>
+            Period: 2019 - 2020<br>
+            Qualification: Bachelor of Commerce Honours in Management
+        </p>
+        <p>
+            Institution: The Independent Institute of Education<br>
+            Campus: Varsity College Durban North<br>
+            Period: 2013 - 2015<br>
+            Qualification: Bachelor of Commerce, Core Discipline: Financial Management
+
+        </p>
+    </section>
+
+    <!--Experience-->
+    <section id="experience">
+        <h1> Experience </h1>
+
+        <!--Unilever-->
+        <div>
+            <h3>Unilever</h3>
+            <p>August 2021 - September 2023</p>
+            <p>Human Resources Employee Experience</p>
+            <ul>
+                <li>Collecting and analysing data using approved research methodologies within specified timelines. </li>
+                <li>Compiling and reporting on research methodology outcomes within agreed-upon timelines. </li>
+                <li>Engage in investigative initiatives on a regular basis. </li>
+                <li>Engage stakeholders through clear written and verbal communication, including presenting research findings. </li>
+                <li>Handle HR document preparation, database updates, and assist employees with HR inquiries. </li>
+                <li>Generate HR metric reports and presentations while actively contributing to HR projects. </li>
+                <li>Design employee experience frameworks and review management practices to enhance employee satisfaction. </li>
+                <li>Conducted recruitment and selection activities. </li>
+                <li>Processed employee movements and terminations from payroll. </li>
+                <li>Handled general administrative duties. </li>
+                <li>Coordinated and analysed data. </li>
+                <li>Maintained governance and controls. </li> 
+            </ul>
+         </div> 
+
+
+         <!--Affinity Solutions--> 
+        </div>
+        <h3>Affinity Solutions</h3>
+            <p>January 2021 - August 2021</p>
+            <p>Credit Control Officer</p>
+            <ul>
+                <li>Communicated effectively with stakeholders to convey research insights and recommendations. </li>
+                <li>Created, revised, and monitored client payment schedules. </li>
+                <li>Provided guidance to clients in their decision-making process. </li>
+                <li>Generated KPI reports on a daily basis. </li>
+            </ul>
+        <div>
+
+        <!--Transnet Port Terminal DCT Pier 2-->
+        <div>
+            <h3>Transnet Port Terminal DCT Pier 2 </h3>
+            <p>November 2016 - October 2018</p>
+            <p>Young Professional in Training</p>
+            <ul>
+                <li>Conducting data collection, analysis, organization, and drafting research reports for presentation. </li>
+                <li>Compile KPI reports on a daily, weekly, monthly, and quarterly basis. </li>
+                <li>Visualise data to provide insights and support decision-making. </li>
+                <li>Conducting data collection, analysis, organization, and drafting research reports for presentation. </li>
+                <li>Selected appropriate data and literary sources for management presentations, ensuring accurate and relevant information. </li>
+                <li>Compiled time sheets. </li>
+                <li>Coordinated travel arrangements. </li>
+                <li>Monitored and ordered office supplies and refreshments. </li>
+            </ul>   
+        </div>
+    
+    </section>
+
+    <!--Certifications-->
+    <section id="certifications">
+        <h1> Certificates</h1>
+        <ul>
+            <li>Business Analytics with Excel Skill Up 2021/07/19 </li>
+            <li>Microsoft Excel 2019 Data Analysis - Level 2 Altron 2022/04/12 </li>
+            <li>Microsoft Excel 2019 Data Analysis - Level 3 Impactful Specialist Solutions 2022/05/12 </li>
+            <li>Effective Communication - MS Teams & Outlook Impactful Specialist Solutions 2022/07/12 </li>
+            <li>Entrepreneurship Impactful Specialist Solutions 2022/10/18 </li>
+            <li>Fostering Innovation Impactful Specialist Solutions 2022/11/15 </li>
+            <li>M365 - PowerBI for End Users Impactful Specialist Solutions 2022/10/11 </li>
+            <li>M365 - PowerBI for End Users Impactful Specialist Solutions 2022/10/12 </li>
+
+        </ul>
+    </section>
+
+    <!--Get Form-->
+    <h2 class="centre-heading" id="get-form-heading">Search CV content</h2>
+    <form action="/search" method="get">  <!--missing a search endpoint-->
+    <label for="search_keywords"> Search keywords:</label>
+    <input type="text" id="search_keywords" name="search_keywords" placeholder="Enter keywords" required>
+
+    <button type="submit">Search</button>
+    </form>
+
+    <!--Post Form-->
+    <h2 class="centre-heading" id="post-form-heading">Contact</h2>
+    <form action="submit_feedback" method="post">  <!--missing a feedback submission endpoint-->
+    <label for="visitor_name">Your Name:</label> 
+    <input type="text" id="visitor_name" name="visitor_name" required>
+
+    <label for="visitor_email"> Your Email:</label>
+    <input type="email" id="visitor_email" name="visitor_email"required>
+
+    <label for="message">Your Message:</label>
+    <textarea name="message" id="message" placeholder="Type your message here" required></textarea>
+
+    <button type="submit">Send Message</button>
+
+    </form>
+
+    </body>
+
+</html>
+
